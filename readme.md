@@ -151,23 +151,23 @@ The domain component must be the same through the differente configurations.
 
 # Glossary
 
-* *Public Key Infrastructure (PKI)*: Security architecture where trust is conveyed through the signature of a trusted
+* **Public Key Infrastructure (PKI)**: Security architecture where trust is conveyed through the signature of a trusted
 CA.
-* *Certificate Authority (CA)*: Entity issuing certificates and CRLs.
-* *Registration Authority (RA)*: Entity handling PKI enrollment. May be identical with the CA.
-* *Certificate*: Public key and ID bound by a CA signature.
-* *Certificate Signing Request (CSR)* Request for certification. Contains public key and ID to be certified.
-* *Certificate Revocation List (CRL)* List of revoked certificates. Issued by a CA at regular intervals.
-* *Certification Practice Statement (CPS)* Document describing structure and processes of a CA.
-* *Root CA*: CA at the root of a PKI hierarchy. Issues only CA certificates.
-* *Intermediate CA*: CA below the root CA but not a signing CA. Issues only CA certificates.
-* *Signing CA*: CA at the bottom of a PKI hierarchy. Issues only user certificates.
-* *CA Certificate*: Certificate of a CA. Used to sign certificates and CRLs.
-* *Root Certificate*: Self-signed CA certificate at the root of a PKI hierarchy. Serves as the PKI’s trust anchor.
-* *Cross Certificate CA*: certificate issued by a CA external to the primary PKI hierarchy. Used to connect two PKIs
+* **Certificate Authority (CA)**: Entity issuing certificates and CRLs.
+* **Registration Authority (RA)**: Entity handling PKI enrollment. May be identical with the CA.
+* **Certificate**: Public key and ID bound by a CA signature.
+* **Certificate Signing Request (CSR)** Request for certification. Contains public key and ID to be certified.
+* **Certificate Revocation List (CRL)** List of revoked certificates. Issued by a CA at regular intervals.
+* **Certification Practice Statement (CPS)** Document describing structure and processes of a CA.
+* **Root CA**: CA at the root of a PKI hierarchy. Issues only CA certificates.
+* **Intermediate CA**: CA below the root CA but not a signing CA. Issues only CA certificates.
+* **Signing CA**: CA at the bottom of a PKI hierarchy. Issues only user certificates.
+* **CA Certificate**: Certificate of a CA. Used to sign certificates and CRLs.
+* **Root Certificate**: Self-signed CA certificate at the root of a PKI hierarchy. Serves as the PKI’s trust anchor.
+* **Cross Certificate CA**: certificate issued by a CA external to the primary PKI hierarchy. Used to connect two PKIs
 and thus usually comes in pairs. 1
-* *User Certificate*: End-user certificate issued for one or more purposes: email-protection, server-auth, client-auth,
+* **User Certificate**: End-user certificate issued for one or more purposes: email-protection, server-auth, client-auth,
 code-signing, etc. A user certificate cannot sign other certificates.
-* *Privacy Enhanced Mail (PEM)*: Text format. Base-64 encoded data with header and footer lines. Preferred format
+* **Privacy Enhanced Mail (PEM)**: Text format. Base-64 encoded data with header and footer lines. Preferred format
 in OpenSSL and most software based on it (e.g. Apache mod_ssl, stunnel).
-* *Distinguished Encoding Rules (DER)*: Binary format. Preferred format in Wind
+* **Distinguished Encoding Rules (DER)**: Binary format. Preferred format in Wind
